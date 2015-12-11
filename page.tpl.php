@@ -17,9 +17,9 @@
 
 	<?php print render($title_suffix); ?>
 
-	<?php if (isset($page['adminmenu'])): ?>
-		<div id="management-menu">
-			<?php print render($page['adminmenu']); ?>
+	<?php if (isset($page['header'])): ?>
+		<div id="header">
+			<?php print render($page['header']); ?>
 		</div>
 	<?php endif; ?>
 
